@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Reset some basic elements for better cross-browser consistency */
+body, h1, h2, p, a, img {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Set the body background color and font family for the entire page */
+body {
+  background-color: #f4f4f4; /* Light gray background for a neutral look */
+  font-family: Arial, sans-serif; /* Simple, clean font */
+}
+
+/* Style the hero section */
+.hero-section {
+  background-color: #e1dfd0; /* Earthy tone background for the hero section */
+  color: #333; /* Dark gray text for good contrast */
+  padding: 60px 20px; /* Space inside the hero section */
+  text-align: center; /* Center align text inside the hero section */
+}
+
+/* Container to centralize content within the hero section */
+.container {
+  max-width: 800px; /* Maximum width of the content area */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Hero image style */
+.hero-image {
+  width: 200px; /* Set a small width for the image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the image rounded */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a soft shadow behind the image */
+  margin-bottom: 20px; /* Space below the image */
+}
+
+/* Main heading style */
+.main-heading {
+  font-family: 'Rubik', sans-serif; /* Apply Rubik font to the main heading */
+  font-size: 48px; /* Large font size for main heading */
+  margin-bottom: 20px; /* Space below the main heading */
+}
+
+/* Subheading style */
+.subheading {
+  font-size: 24px; /* Medium font size for subheading */
+  margin-bottom: 20px; /* Space below the subheading */
+}
+
+/* Description paragraph style */
+.description {
+  font-size: 16px; /* Standard font size for paragraph */
+  line-height: 1.4;
+  margin-bottom: 40px; /* Space below the description */
+}
+
+/* Call to action button style */
+.cta-button {
+  display: inline-block; /* Inline-block to style as a button */
+  background-color: #4a773c; /* Earthy green background for button */
+  color: white; /* White text for good contrast */
+  padding: 20px 40px; /* Space inside the button */
+  font-size: 20px; /* Standard font size for button */
+  border-radius: 5px; /* Rounded corners for the button */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the call to action button */
+.cta-button:hover {
+  background-color: #3b5c2d; /* Darker green on hover for effect */
+}
